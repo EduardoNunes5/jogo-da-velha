@@ -11,28 +11,6 @@ public class JogoDaVelhaTest {
     private JogoDaVelha jogo = new JogoDaVelha();
 
 
-//    @Test
-//    void test(){
-//        int[][] tabuleiro = new int[][]{
-//                {1, 0, 0},
-//                {1, 1, 0},
-//                {1, 1, 0}};
-//
-//        Assertions.assertTrue(jogo.ganhou(tabuleiro, 2, 2, 1));
-//
-//    }
-//
-//    @Test
-//    void test2(){
-//        int[][] tabuleiro = new int[][]{
-//                {1, 0, 0},
-//                {1, 1, 0},
-//                {1, 1, 0}};
-//
-//        Assertions.assertTrue(jogo.ganhou(tabuleiro, 0, 2, 1));
-//
-//    }
-
     @Test
     void test3(){
         int[][] tabuleiro = new int[][] {
