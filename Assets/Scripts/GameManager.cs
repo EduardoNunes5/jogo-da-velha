@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
             gameOver = true;
         }
 
-        if (IsDraw())
+        if (!gameOver && IsDraw())
         {
             hudManager.ShowDraw();
             gameOver = true;
